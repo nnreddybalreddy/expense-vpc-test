@@ -1,6 +1,6 @@
-output "azs" {
-  value = module.vpc_test.selected_availability_zones
-}
+# output "azs" {
+#   value = module.vpc_test.selected_availability_zones
+# }
 
 output "azs_info" {
   value = module.vpc_test.azs
